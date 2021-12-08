@@ -1,0 +1,78 @@
+* Balanced: https://en.wikipedia.org/wiki/Balanced_prime
+Bell: https://en.wikipedia.org/wiki/Bell_prime
+Chen: https://en.wikipedia.org/wiki/Chen_primes
+Circular: https://en.wikipedia.org/wiki/Circular_prime
+* Cousin: https://en.wikipedia.org/wiki/Cousin_primes
+Cuban: https://en.wikipedia.org/wiki/Cuban_prime
+Cullen: https://en.wikipedia.org/wiki/Cullen_number
+Dihedral: https://en.wikipedia.org/wiki/Dihedral_prime
+Eisenstein: https://en.wikipedia.org/wiki/Eisenstein_primes
+Emirps: https://en.wikipedia.org/wiki/Emirps
+Euclid: https://en.wikipedia.org/wiki/Euclid_number
+Euler irregular: https://en.wikipedia.org/wiki/Regular_prime#Euler_irregular_primes
+Euler: https://en.wikipedia.org/wiki/Regular_prime#Irregular_pairs
+Factorial: https://en.wikipedia.org/wiki/Factorial_prime
+Fermat: https://en.wikipedia.org/wiki/Fermat_prime
+Fibonacci: https://en.wikipedia.org/wiki/Fibonacci_prime
+Fortunate: https://en.wikipedia.org/wiki/Fortunate_number
+Gaussian: https://en.wikipedia.org/wiki/Gaussian_prime
+Good: https://en.wikipedia.org/wiki/Good_prime
+Happy: https://en.wikipedia.org/wiki/Happy_prime
+Harmonic: https://en.wikipedia.org/wiki/List_of_prime_numbers
+Higgs: https://en.wikipedia.org/wiki/Higgs_prime
+Highly cototient: https://en.wikipedia.org/wiki/Highly_cototient_number
+Home: https://en.wikipedia.org/wiki/Home_prime
+Irregular: https://en.wikipedia.org/wiki/Irregular_prime
+Isolated: https://en.wikipedia.org/wiki/Isolated_prime
+Leyland: https://en.wikipedia.org/wiki/Leyland_number
+Long: https://en.wikipedia.org/wiki/Full_reptend_prime
+Lucas: https://en.wikipedia.org/wiki/Lucas_prime
+Lucky: https://en.wikipedia.org/wiki/Lucky_number
+Mersenne: https://en.wikipedia.org/wiki/Mersenne_prime
+Double Mersenne: https://en.wikipedia.org/wiki/Double_Mersenne_prime
+Repunit: https://en.wikipedia.org/wiki/Repunit#Repunit_primes
+Mills: https://en.wikipedia.org/wiki/Mills%27_constant
+Minimal: https://en.wikipedia.org/wiki/Minimal_prime_(number_theory)
+Newman-Shanks-Williams: https://en.wikipedia.org/wiki/Newman%E2%80%93Shanks%E2%80%93Williams_prime
+Non-generous: https://en.wikipedia.org/wiki/List_of_prime_numbers
+Palindromic: https://en.wikipedia.org/wiki/Palindromic_primes
+Palindromic wing: https://en.wikipedia.org/wiki/List_of_prime_numbers
+Partition: https://en.wikipedia.org/wiki/Partition_(number_theory)#Partition_function
+Pell: https://en.wikipedia.org/wiki/Pell_number
+Permutable: https://en.wikipedia.org/wiki/Permutable_prime
+Perrin: https://en.wikipedia.org/wiki/Perrin_number
+Pierpont: https://en.wikipedia.org/wiki/Pierpont_prime
+Pillai: https://en.wikipedia.org/wiki/Pillai_prime
+n4 + 1: https://en.wikipedia.org/wiki/List_of_prime_numbers
+Primaveral: https://en.wikipedia.org/wiki/Primeval_prime
+Primordial: https://en.wikipedia.org/wiki/Primorial_prime
+Proth: https://en.wikipedia.org/wiki/Proth_number
+Pythagorean: https://en.wikipedia.org/wiki/Pythagorean_prime
+Quadruplets: https://en.wikipedia.org/wiki/Prime_quadruplet
+Quartan: https://en.wikipedia.org/wiki/Quartan_prime
+Ramanujan: https://en.wikipedia.org/wiki/Ramanujan_prime
+Regular: https://en.wikipedia.org/wiki/Regular_prime
+Repunit decimal: https://en.wikipedia.org/wiki/Repunit#Decimal_repunit_primes
+Residue classes: https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions
+Safe: https://en.wikipedia.org/wiki/Safe_prime
+Self base 10: https://en.wikipedia.org/wiki/Self_number
+Sexy: https://en.wikipedia.org/wiki/Sexy_prime
+Smarandache-Wellin: https://en.wikipedia.org/wiki/Smarandache%E2%80%93Wellin_number
+Solinas: https://en.wikipedia.org/wiki/Solinas_prime
+Sophie Germain: https://en.wikipedia.org/wiki/Sophie_Germain_prime
+Stern: https://en.wikipedia.org/wiki/Stern_prime
+Strobogrammatic: https://en.wikipedia.org/wiki/Strobogrammatic_prime
+Super: https://en.wikipedia.org/wiki/Super-prime
+Supersingular: https://en.wikipedia.org/wiki/Supersingular_prime_(moonshine_theory)
+thabit: https://en.wikipedia.org/wiki/Thabit_prime
+Triplet: https://en.wikipedia.org/wiki/Prime_triplet
+Truncatable: https://en.wikipedia.org/wiki/Truncatable_prime
+* Twin: https://en.wikipedia.org/wiki/Twin_prime
+unique: https://en.wikipedia.org/wiki/Unique_prime
+Wagstaff: https://en.wikipedia.org/wiki/Wagstaff_prime
+Wall-sun-sun: https://en.wikipedia.org/wiki/Wall%E2%80%93Sun%E2%80%93Sun_prime
+Weakly: https://en.wikipedia.org/wiki/Weakly_prime_number
+Wieferich: https://en.wikipedia.org/wiki/Wieferich_prime
+Wilson: https://en.wikipedia.org/wiki/Wilson_prime
+Wolstenholme: https://en.wikipedia.org/wiki/Wolstenholme_prime
+Woodall: https://en.wikipedia.org/wiki/Woodall_number
