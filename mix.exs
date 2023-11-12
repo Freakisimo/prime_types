@@ -21,7 +21,7 @@ defmodule PrimeTypes.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:sieve_of_eratosthenes, "~> 0.1.1"},
+      {:sieve_of_eratosthenes, "~> 0.2.0"},
       {:ex_doc, "~> 0.26.0"},
       {:csv, "~> 2.4"},
       # {:dep_from_hexpm, "~> 0.3.0"},

@@ -16,20 +16,29 @@ defmodule PrimeTypes do
   # |> Enum.filter(fn x -> not String.contains?(x, "0") end) 
   # |> Enum.map(fn x -> Integer.parse(x, 2) |> elem(0) end)
 
-  def is_prime?(input) do
-    primes = get_primes(input, 1)
+  table = PrimeTypes.Primes.start_table()
+  
+  def which_types(input, type) do
+    primes = get_primes(input)
+  end
+
+  def which_types(input) do
+    primes = get_primes(input)
+  end
+
+
+  def is_prime?(input, primes) do
     Enum.member?(primes, input)
   end
 
-  def get_primes(input, multiply) do
-    input * multiply
+  def get_primes(input) do
+    input ** input
     |> SieveOfEratosthenes.calculate_primes
   end
 
   def check_type(prime_number, prime_type) do
     case prime_type do
       :balanced -> PrimeTypes.Balanced.belonging_to?(prime_number)
-      :bell -> "Prime type not implemented"
       :chen -> "Prime type not implemented"
       :circular -> "Prime type not implemented"
       :cousin -> PrimeTypes.Cousin.belonging_to?(prime_number)
