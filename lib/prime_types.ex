@@ -1,4 +1,5 @@
 defmodule PrimeTypes do
+  defstruct prime_number: nil, class: %{}
   @moduledoc """
   Documentation for `PrimeTypes`.
   """
@@ -16,40 +17,29 @@ defmodule PrimeTypes do
   # |> Enum.filter(fn x -> not String.contains?(x, "0") end) 
   # |> Enum.map(fn x -> Integer.parse(x, 2) |> elem(0) end)
 
-  table = PrimeTypes.Primes.start_table()
-  
-  def which_types(input, type) do
-    primes = get_primes(input)
-  end
+  def new(prime_number), do: %PrimeTypes{prime_number: prime_number}
 
   def which_types(input) do
     primes = get_primes(input)
-  end
-
-
-  def is_prime?(input, primes) do
-    Enum.member?(primes, input)
-  end
-
-  def get_primes(input) do
-    input ** input
-    |> SieveOfEratosthenes.calculate_primes
-  end
-
-  def check_type(prime_number, prime_type) do
-    case prime_type do
-      :balanced -> PrimeTypes.Balanced.belonging_to?(prime_number)
-      :chen -> "Prime type not implemented"
-      :circular -> "Prime type not implemented"
-      :cousin -> PrimeTypes.Cousin.belonging_to?(prime_number)
-      :fermat -> PrimeTypes.Fermat.belonging_to?(prime_number)
-      :twin -> PrimeTypes.Twin.belonging_to?(prime_number)
-      _ -> "Prime type not implemented"
+    case Enum.member?(primes, input) do
+      false -> "The provide number isn't prime number"
+      true -> PrimeTypes.check_prime_class(input, primes)
     end
   end
 
-  def binary_primes do
-    
+  def get_primes(input) do
+    input * 2
+    |> SieveOfEratosthenes.calculate_primes
+  end
+
+  def check_prime_class(prime_number, primes) do
+    types = PrimeTypes.new(prime_number)
+    classes = types.class
+      |> Map.put(:balanced, PrimeTypes.Balanced.belonging_to?(prime_number, primes))
+      |> Map.put(:cousin, PrimeTypes.Cousin.belonging_to?(prime_number, primes))
+      |> Map.put(:fermat, PrimeTypes.Fermat.belonging_to?(prime_number))
+      |> Map.put(:twin, PrimeTypes.Twin.belonging_to?(prime_number, primes))
+    put_in(types.class, classes)
   end
 
 end

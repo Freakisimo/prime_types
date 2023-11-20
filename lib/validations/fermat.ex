@@ -9,7 +9,6 @@ defmodule PrimeTypes.Fermat do
   end
 
   defp square_root_steps(number, steps) do
-    IO.inspect number
     case rem(number, 2) do
       0 -> square_root_steps(trunc(number / 2), steps + 1)
       _ -> {:error, 0}

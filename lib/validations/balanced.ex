@@ -1,7 +1,6 @@
 defmodule PrimeTypes.Balanced do
-  def belonging_to?(prime_number) do
+  def belonging_to?(prime_number, primes) do
 
-    primes = PrimeTypes.get_primes(prime_number, 2)
     prime_index = Enum.find_index(primes, fn x -> x == prime_number end)
 
     {:ok, a_prime} = Enum.fetch(primes, prime_index - 1)
