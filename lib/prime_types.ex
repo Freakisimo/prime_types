@@ -39,6 +39,7 @@ defmodule PrimeTypes do
       |> Map.put(:cousin, PrimeTypes.Cousin.belonging_to?(prime_number, primes))
       |> Map.put(:fermat, PrimeTypes.Fermat.belonging_to?(prime_number))
       |> Map.put(:twin, PrimeTypes.Twin.belonging_to?(prime_number, primes))
+      |> Map.put(:chen, PrimeTypes.Chen.belonging_to?(prime_number, primes))
     put_in(types.class, classes)
   end
 
